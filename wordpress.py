@@ -101,7 +101,7 @@ volumes:
     usr_inp=input("Enable/Disable/Delete the website. Or write Exit to escape the program").lower()
     if usr_inp=="enable":
       # Create the containers.
-      subprocess.run(["docker","compose", "--detach", "-f", "docker-compose.yml","up"])
+      subprocess.run(["docker","compose", "-f", "docker-compose.yml","up", "-d"])
 
       # Create the /etc/hosts entry.
       subprocess.run(["sudo", "echo", "127.0.0.1 {}".format(site_name), ">>", "/etc/hosts"])
