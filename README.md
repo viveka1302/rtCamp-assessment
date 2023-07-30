@@ -4,7 +4,7 @@
 1. Check for docker and docker-compose installations, and install if missing.
 2. Generate a docker compose file and spin up a word press site.
 
-#USE THE PYTHON FILE (Bash file is incomplete/scrapped)
+#USE THE PYTHON FILE (Bash file is incomplete/scrapped, Ignore it)
 
 Instructions:
 
